@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background: #15171c;
+    background: linear-gradient(156deg, rgba(21, 23, 28, 1) 0%, rgba(7, 20, 33, 1) 35%, rgba(27, 47, 77, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.covid-container {
+    max-width: 600px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .05)
+}
+
+.covid-search input,
+.covid-search button {
+    font-size: 18px !important;
+}
+
+#covid-btn {
+    background-color: #7066e0 !important;
+    border: #7066e0;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+.covid-stat {
+    background: #e4f0fa;
+    border-radius: 15px;
+    padding: 12px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.covid-stat p {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.covid-stat i {
+    font-size: 33px;
+    display: block;
+    margin: 18px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow: visible;
+    }
+
+    .covid-container {
+        margin: 40px 2%;
+        background: #fff;
+        border-radius: 10px;
+        padding: 12px;
+    }
+}
